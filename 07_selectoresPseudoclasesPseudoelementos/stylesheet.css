@@ -1,0 +1,7 @@
+.boton-sobreMi::before {
+    content: 'Pasa por encima';
+}
+.boton-sobreMi:hover {
+    color: white;
+    background-color: green;
+}
