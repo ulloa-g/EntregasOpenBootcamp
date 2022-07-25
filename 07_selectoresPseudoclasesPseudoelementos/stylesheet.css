@@ -1,7 +1,12 @@
 .boton-sobreMi::before {
-    content: 'Pasa por encima';
+    content: "Pasa por encima"
 }
+
 .boton-sobreMi:hover {
-    color: white;
     background-color: green;
+    color: white;
+}
+/* De esta forma se debe combinar psedo clase con pseudo elemento para cambiar el contenido del boton al pasar por encima */
+.boton-sobreMi:hover::before {
+    content: "¡Hecho!"
 }
