@@ -1,0 +1,12 @@
+{
+  "name": "01_crearjsonpackage",
+  "version": "1.0.0",
+  "description": "primer ejercicio para openBootcamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gabriel ulloa",
+  "license": "ISC"
+}
