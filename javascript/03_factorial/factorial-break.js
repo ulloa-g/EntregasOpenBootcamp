@@ -11,4 +11,3 @@ while (true) {
     }
 }
 console.log ('El factorial de 10 es: ', factorialDiez)
-
